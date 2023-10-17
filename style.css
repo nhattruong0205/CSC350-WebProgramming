@@ -1,0 +1,23 @@
+p1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: pink;
+  border-color: blue;
+  display: block;
+  color: white;
+}
+p2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: black;
+  border-color: yellow;
+  color: white;
+  display: block;
+}
+p3 {
+  text-indent: 1cm;
+  background-color: green;
+  border-color: white;
+  display: block;
+  color: white;
+}
