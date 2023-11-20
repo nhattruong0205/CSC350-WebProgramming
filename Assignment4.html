@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 4</title>
+  <h1> Excercise 4.1 </h1>
+  <script>
+    function generateTable() {
+      let table = "Number | Square | Cube\n";
+      for (let i = 5; i <= 15; i++) {
+        let square = i * i;
+        let cube = i * i * i;
+        table += `${i} | ${square} | ${cube}\n`;
+      }
+      alert(table);
+    }
+  </script>
+  <button onclick="generateTable()">Generate Table</button>
+
+  <h1> Excercise 4.3 </h1>
+  <script>
+    function findLargestNumber() {
+      let num1 = parseFloat(prompt("Enter the first number:"));
+      let num2 = parseFloat(prompt("Enter the second number:"));
+      let num3 = parseFloat(prompt("Enter the third number:"));
+      
+      let largest = Math.max(num1, num2, num3);
+      alert(`The largest number is: ${largest}`);
+    }
+  </script>
+  <button onclick="findLargestNumber()">Find Largest Number</button>
+
+  <h1> Excercise 4.6 </h1>
+  <script>
+    function sortWords() {
+      let text = prompt("Enter a line of text:");
+      let words = text.split(/\s+/).sort();
+      alert(`Sorted words: ${words.join(", ")}`);
+    }
+  </script>
+  <button onclick="sortWords()">Sort Words</button>
+
+</head>
+</html>
